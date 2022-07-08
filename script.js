@@ -8,3 +8,13 @@ for (let i = 0; i < 256; i++) {
     newDiv.setAttribute('id', `box${i+1}`);
     container.appendChild(newDiv);
 }
+
+
+//dictate size of boxes
+const boxes = document.querySelectorAll('.boxes');
+boxes.forEach((box) => {
+    box.style.backgroundColor = 'gray';
+    box.style.width = '15px';
+    box.style.height = '15px';
+
+})
