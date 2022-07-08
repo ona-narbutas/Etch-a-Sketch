@@ -14,11 +14,11 @@ for (let i = 0; i < 256; i++) {
 const boxes = document.querySelectorAll('.boxes');
 boxes.forEach((box) => {
     box.style.backgroundColor = 'lightgray';
-    box.style.width = '15px';
-    box.style.height = '15px';
-    
+
+
     //turn box from lightgray to gray on hover
     box.addEventListener('mouseenter', () =>{
         box.style.backgroundColor = 'gray';
+        box.style.width = 'auto';
     });
 })
